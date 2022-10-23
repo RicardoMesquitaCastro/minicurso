@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet,Text,View,TextInput,TouchableOpacity, } from 'react-native';  
+import { StyleSheet,Text,View,TextInput,TouchableOpacity, Image } from 'react-native';  
 import { Icon } from 'react-native-elements';
 import { ScrollView } from 'react-native';
 import Styles from './Styles';
@@ -9,7 +9,7 @@ export default function App() {
     return(
      <ScrollView>
     <View style={styles.container}>
-        <Text style={Styles.welcomeText}>Welcome Back!</Text>
+      <Image style={Styles.imgIf} source={require("../src/ifg.png")} />
         <Text style={Styles.loginText}>Login</Text>
         
         <TextInput
@@ -34,7 +34,7 @@ export default function App() {
           <Text style={Styles.fpText}>Esqueci a senha!</Text>
         </TouchableOpacity>
         <TouchableOpacity style={Styles.loginButton}>
-          <Text style={Styles.loginButtonText}>Login</Text>
+          <Text style={Styles.loginButtonText}>ENTRAR</Text>
         </TouchableOpacity>
         <View style={Styles.loginWithBar}>
           <TouchableOpacity style={Styles.iconButton}>

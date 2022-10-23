@@ -4,12 +4,12 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
     container: {
       flex: 1,
-      paddingTop: 100,
+      paddingTop: 100,      //nao ta servindo pra nada
       paddingHorizontal: 20,
     },
     welcomeText: {
       fontSize: 30,
-      fontWeight: '900',
+      fontWeight: '900',   //TIRAR DEPOIS
       color: '#ff7200',
       alignSelf: 'center',
     },
@@ -17,7 +17,7 @@ export default StyleSheet.create({
       color: '#ff7200',
       fontSize: 28,
       fontWeight: 'bold',
-      marginTop: 20,
+      marginTop: 30,
       marginBottom: 10,
     },
     input: {
@@ -39,7 +39,7 @@ export default StyleSheet.create({
     },
     loginButton: {
       backgroundColor: '#ff7200',
-      paddingVertical: 12,
+      paddingVertical: 15,
       borderRadius: 6,
       marginTop: 20,
     },
@@ -72,4 +72,16 @@ export default StyleSheet.create({
       fontSize: 20,
       fontWeight: '500',
     },
+    itemTab:{ 
+   
+      backgroundColor:'#ff7200',
+      alignItems:'center',
+      justifyContent:'center'      //nao ta servindo pra nada
+    },
+    imgIf:{
+      height:200,
+      width:200,
+      alignSelf:'center',
+      marginTop: -40
+    }
   });
