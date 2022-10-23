@@ -15,4 +15,7 @@
  5.4 modificar arquivo expo/Entry.js para tela inicial ser o Login; (Instrução fica em package.jon)
  
 6º Desenvolvimento page Login
-7º Criar rotas e navsBar 
+
+7º Criar pages para rotas
+
+8º Criar rotas e navsBar 
