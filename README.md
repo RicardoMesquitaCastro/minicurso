@@ -6,7 +6,7 @@
 
 3º Criando o projeto e iniciando no emulador por app no celular pelo expo start;
  
-4º Mudando icones de splash
+4º Mudando icones de splash (dowload imagem png IFG)
 
 5º Estrutura de arquivos;
  5.1 criar pages e src;
