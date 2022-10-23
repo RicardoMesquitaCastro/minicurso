@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet,Text,View,TextInput,TouchableOpacity, Image } from 'react-native';  
+import { StyleSheet,Text,View,TextInput,TouchableOpacity, Image,SafeAreaView } from 'react-native';  
 import { Icon } from 'react-native-elements';
 import { ScrollView } from 'react-native';
 import Styles from './Styles';
@@ -7,6 +7,7 @@ import Styles from './Styles';
 export default function App() {
  
     return(
+      
      <ScrollView>
     <View style={styles.container}>
       <Image style={Styles.imgIf} source={require("../src/ifg.png")} />
@@ -17,7 +18,6 @@ export default function App() {
           placeholderTextColor='#fafafa'
           style={Styles.input}
           autoCorrect={true}
-          autoCapitalize={false}
           autoCompleteType='email'
           keyboardType='email-address'
           textContentType='emailAddress'
@@ -66,6 +66,7 @@ export default function App() {
         </View>
         </View>
         </ScrollView>
+       
   );
   }
 

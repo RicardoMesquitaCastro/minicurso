@@ -16,7 +16,7 @@ export default StyleSheet.create({
     loginText: {
       color: '#ff7200',
       fontSize: 28,
-      fontWeight: 'bold',
+      fontWeight: 'bold',  
       marginTop: 30,
       marginBottom: 10,
     },
@@ -57,7 +57,7 @@ export default StyleSheet.create({
     },
     iconButton: {
       backgroundColor: '#ff7200',
-      padding: 14,
+      padding: 10,
       marginHorizontal: 10,
       borderRadius: 100,
     },

@@ -18,8 +18,6 @@ export default function Routes() {
         screenOptions={{
           tabBarStyle:{
             backgroundColor: '#ff7200',
-            
-            
           }
         }}
         >
